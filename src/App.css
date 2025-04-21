@@ -1,0 +1,89 @@
+.main-div{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 5vh;
+  flex-direction: column;
+}
+
+.water-background{
+  background-color: #4B495F;
+}
+
+.game-heading{
+  padding: 5px 20px;
+  border-radius: 5px;
+  text-align: center;
+  font-size: 40px;
+}
+
+.square-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 10px;
+  column-gap: 10px;
+
+}
+
+.move-detection{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 400px;
+}
+
+.left,.right{
+  height: 30px;
+  width: 120px;
+  background-color: #4B495F;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  padding-top:7px ;
+  text-align: center;
+  font-size: 22px;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-weight: 800;
+
+}
+
+.playOnline{
+  background-color: #E4CA56;
+  font-weight: 700;
+  cursor: pointer;
+  margin-top: 45vh;
+  font-size: 60px;
+  border-radius: 5px;
+  outline: none;
+  padding: 6px 10x;
+  border:none;
+  
+}
+
+
+.finished-state{
+  font-size:30px;
+  text-align: center;
+  
+}
+
+
+.waiting{
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  font-size: 44px;
+}
+
+.current-move-cross{
+  background-color: #3FA7F0 !important;
+}
+
+.current-move-circle{
+  background-color: #DD7F9F !important;
+}
